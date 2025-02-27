@@ -45,7 +45,7 @@
 
                 <Frame BorderColor="Black" CornerRadius="10" Padding="10" HorizontalOptions="FillAndExpand">
                     <StackLayout HorizontalOptions="FillAndExpand">
-                        <Image Source="watermellon.jpg" HeightRequest="80" WidthRequest="80" HorizontalOptions="Center" />
+                        <Image Source="watermelon.jpg" HeightRequest="80" WidthRequest="80" HorizontalOptions="Center" />
                         <Label Text="Price: R18.00" FontSize="14" HorizontalOptions="Center" />
                         <Button Text="Add to Cart" Command="{Binding AddToCartCommand}" CommandParameter="Watermelon" />
                     </StackLayout>
