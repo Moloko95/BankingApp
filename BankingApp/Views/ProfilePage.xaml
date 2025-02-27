@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingApp.Views.ProfilePage"
+             Title="ProfilePage"
+             BackgroundColor="YellowGreen">
+    <ScrollView>
+        <StackLayout Padding="20">
+        <Image x:Name="ProfileImage" HeightRequest="150" WidthRequest="150" Aspect="AspectFill"/>
+
+        <Button Text="Upload Picture" Clicked="OnUploadClicked" />
+
+        <Label Text="Name" />
+        <Entry x:Name="NameEntry" />
+
+        <Label Text="Surname" />
+        <Entry x:Name="SurnameEntry" />
+
+        <Label Text="Email Address" />
+        <Entry x:Name="EmailEntry" Keyboard="Email" />
+
+        <Label Text="Bio" />
+        <Editor x:Name="BioEditor" />
+
+        <Button Text="Save" Clicked="OnSaveClicked" />
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>
